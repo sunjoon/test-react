@@ -5,6 +5,7 @@ import TodoHead from './Components/TodoHead';
 import Counter from './Countter';
 import InputSample from './InputSample';
 import ServiceSlot from './Components/ServiceSlot';
+import TestCode from'./Components/Test';
 
 
 
@@ -30,9 +31,10 @@ class App extends Component{
         <br/><br/><br/><br/><br/>
         <ServiceSlot title = "Wacha" status = "Now On" link = "https://nexflix.com"/>
         <ServiceSlot title = "Apple Music" status = "Now On" link = "https://nexflix.com"/>
+        <TestCode name="aaa"/>
       </TodoTemplate>
 
-
+      
       <Counter />
       <br></br>
       <InputSample />
